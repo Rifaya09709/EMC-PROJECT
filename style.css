@@ -1,0 +1,20 @@
+h1{
+    background-color: deeppink;
+    color: black;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.box__1,.box__2,.box__3{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.box__1__p,.box__2__p,.box__3__p{
+   border: solid white 2px;
+   border-radius: 10px;
+   padding: 5px;
+}
